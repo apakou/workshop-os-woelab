@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
     <title>Workshop Open Source at Woelab</title>
 </head>
 <body>
@@ -51,7 +52,41 @@
         </main>
         
         <footer class="footer">
-            <p>&copy; 2025 Woelab. Empowering innovation through open source.</p>
+            <div class="footer-inner">
+                <div class="brand">
+                    <h1 class="title">Woelab</h1>
+                    <p>Open Source Workshop — Apprendre, contribuer et innover ensemble.</p>
+                    <div style="margin-top:12px;" class="social-links" aria-label="Liens sociaux">
+                        <a href="#" aria-label="Twitter">🐦 Twitter</a>
+                        <a href="#" aria-label="GitHub">🐙 GitHub</a>
+                        <a href="#" aria-label="LinkedIn">💼 LinkedIn</a>
+                    </div>
+                </div>
+
+                <nav aria-label="Liens du workshop">
+                    <h4 style="color:#fff; margin:0 0 10px 0;">Ressources</h4>
+                    <a href="#">Guides</a>
+                    <a href="#">Projets</a>
+                    <a href="#">Contribuer</a>
+                    <a href="#">Événements</a>
+                </nav>
+
+                <div class="newsletter" aria-label="Newsletter">
+                    <h4 style="color:#fff; margin:0 0 10px 0;">Inscrivez-vous à la newsletter</h4>
+                    <p style="margin:0 0 10px 0; color:var(--muted-2); font-size:0.95rem;">Recevez des mises à jour sur les ateliers et les nouveaux projets.</p>
+                    <form class="newsletter-form" aria-label="Formulaire newsletter">
+                        <div class="form-row">
+                            <input type="email" name="email" placeholder="Votre email" required aria-label="Adresse email">
+                            <button type="submit">S'inscrire</button>
+                        </div>
+                        <p class="msg" style="margin-top:8px; font-size:0.9rem; color:var(--muted-2); display:none;"></p>
+                    </form>
+                </div>
+
+                <div class="legal" style="margin-top:8px;">
+                    <p>&copy; 2025 Woelab. Empowering innovation through open source. — <a href="#" style="color:var(--muted); text-decoration:underline;">Politique de confidentialité</a></p>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
